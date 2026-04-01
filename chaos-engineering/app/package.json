@@ -1,0 +1,20 @@
+{
+  "name": "chaos-app",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@kubernetes/client-node": "^1.4.0",
+    "axios": "^1.14.0",
+    "cors": "^2.8.6",
+    "express": "^4.22.1",
+    "uuid": "^13.0.0"
+  },
+  "description": "",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}

@@ -1,0 +1,65 @@
+.App {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  font-family: system-ui, sans-serif;
+}
+
+.status-card {
+  background: #1a1a1a;
+  border: 2px solid #333;
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin: 2rem 0;
+}
+
+.status.live {
+  background: #10b981;
+  color: white;
+  padding: 1rem;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.status.offline {
+  background: #ef4444;
+  color: white;
+  padding: 1rem;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.chaos-btn {
+  background: #8b5cf6;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin: 1rem;
+}
+
+.chaos-btn:hover {
+  background: #7c3aed;
+}
+
+pre {
+  background: #111;
+  color: #00ff00;
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: left;
+  font-size: 0.9rem;
+}
+
+footer {
+  margin-top: 3rem;
+  padding: 1rem;
+  background: #111;
+  border-radius: 8px;
+  color: #ccc;
+}
